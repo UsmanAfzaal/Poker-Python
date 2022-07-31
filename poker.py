@@ -315,7 +315,7 @@ class Poker:
                         print("{} has high card which is {}".format(self.player2.name, extracted_card_player2))
                         print("{} wins this round".format(self.player2.name))
                         self.player2.wins += 1
-                    # show all of a player's cards in one list
+
                 print("This round is a draw")
             else:
                 if player1_rank > player2_rank:
